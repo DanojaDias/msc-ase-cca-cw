@@ -10,8 +10,8 @@ const config = {
 // initialize S3 client
 const s3Config = {
     signatureVersion: 'v4',
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+    accessKeyId: "AKIAU5OLTNO7P7YXSCG4",
+    secretAccessKey: "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"
 }
 const s3 = new AWS.S3(s3Config);
 
